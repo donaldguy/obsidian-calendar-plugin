@@ -10,6 +10,7 @@
   "scripts": {
     "lint": "svelte-check && eslint . --ext .ts",
     "build": "rollup -c",
+    "prepare": "npm run build",
     "test": "jest",
     "test:watch": "yarn test -- --watch"
   },

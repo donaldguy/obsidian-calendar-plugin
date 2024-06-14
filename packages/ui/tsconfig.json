@@ -1,8 +1,7 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
 
-  "include": ["src/**/*"],
-  "exclude": ["node_modules/*"],
+  "include": ["src/*.ts", "src/components/*.svelte", "src/components/popover/*.svelte", "popper.d.ts"],
   "compilerOptions": {
     "types": ["node", "jest", "svelte"],
     "baseUrl": ".",
