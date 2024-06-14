@@ -9,12 +9,12 @@
   "license": "MIT",
   "scripts": {
     "lint": "svelte-check && eslint . --ext .ts",
-    "build": "npm run lint && rollup -c",
+    "build": "rollup -c",
     "test": "jest",
     "test:watch": "yarn test -- --watch"
   },
   "dependencies": {
-    "obsidian-daily-notes-interface": "0.8.4",
+    "obsidian-daily-notes-interface": "*",
     "svelte": "3.35.0",
     "tslib": "2.1.0"
   },

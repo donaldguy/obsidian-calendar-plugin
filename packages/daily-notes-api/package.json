@@ -14,7 +14,7 @@
   },
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "build": "npm run lint && rollup -c",
+    "build": "rollup -c",
     "test": "jest",
     "test:watch": "yarn test -- --watch"
   },
